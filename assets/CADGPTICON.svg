@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     width="500"
+     height="500"
+     viewBox="0 0 500 500">
+
+    <!--GENUINELY have no clue what im doing w svg :pray: -->
+    <!--designing svg icon from scratch with code like neovim user mega tuff -->
+
+    <circle cx="250" cy="250" r="67" fill="#FFFFFF"/>
+
+
+</svg>
