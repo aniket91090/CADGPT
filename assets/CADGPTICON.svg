@@ -8,7 +8,21 @@
     <!--GENUINELY have no clue what im doing w svg :pray: -->
     <!--designing svg icon from scratch with code like neovim user mega tuff -->
 
-    <circle cx="250" cy="250" r="67" fill="#FFFFFF"/>
+    <polygon points="250.0,83.3 394.3,166.7 394.3,333.3 250.0,416.7 105.7,333.3 105.7,166.7"
+             fill="#74AA9C"
+             stroke="#FFFFFF"
+             stroke-width="7"
+            stroke-linecap="round"/>
 
+    <g stroke="#FFFFFF" stroke-width="5" stroke-linecap="round">
+        <line x1="250" y1="250" x2="250.0" y2="83.3" />
+        <line x1="250" y1="250" x2="394.4" y2="333.3" />
+        <line x1="250" y1="250" x2="105.7" y2="333.3" />
+    </g>
+
+    <g stroke="#FFFFFF" fill="#74AA9C" font-family="sans-serif" font-weight="bold" font-size="42" text-anchor="middle" dominant-baseline="middle">
+        <text x="178" y="210">CAD</text>
+        <text x="322" y="210">GPT</text>
+    </g>
 
 </svg>
