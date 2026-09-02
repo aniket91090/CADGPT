@@ -20,9 +20,15 @@
         <line x1="250" y1="250" x2="105.7" y2="333.3" />
     </g>
 
-    <g stroke="#FFFFFF" fill="#74AA9C" font-family="sans-serif" font-weight="bold" font-size="42" text-anchor="middle" dominant-baseline="middle">
+    <g stroke="#FFFFFF" fill="#74AA9C" font-family="sans-serif" font-weight="bold" font-size="60" text-anchor="middle" dominant-baseline="middle">
         <text x="178" y="210">CAD</text>
         <text x="322" y="210">GPT</text>
     </g>
+
+    <!-- was tryna rotate this and make it look tuff like the hexacube
+    and the CAD text on one side like its on the plane and stuff looking 3D
+    and stuff but its genuinely like fries in the bag and a waste of time so
+    ill just leave it at this for now hopefully ill get back to improving
+    it in the future :) its lwk fried for now but wtv its what its -->
 
 </svg>
