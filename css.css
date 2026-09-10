@@ -1,5 +1,7 @@
 body {
     background: #343541; /*GPT grey mega tuff btw OG type*/
+    font: 20px "Roboto Thin", sans-serif;
+    font-weight: 2;
 }
 
 /*div magic ig*/
@@ -16,8 +18,47 @@ body {
     height: 100vh;
 }
 
-.typebox-y {
+.typebox {
     display: flex;
+    justify-content: center;
     align-items: center;
-    height: 20vh;
+    margin: 80vh auto 0 50vw;
+    height: 12.5vh;
+    width: 35vw;
+    border: .5px solid #767781;
+    border-radius: 10px;
+    corner-shape: round;
+    color: #c5c6d1;
+    background: #4e4f5a;
+    min-width: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+    justify-items: center;
+    text-justify: auto;
+    caret-color: #767781;
+}
+
+.typebox:hover {
+    filter: brightness(130%);
+}
+
+.typebox:has(br:only-child)::before,
+.typebox:empty,
+.typebox:empty::before {
+    content: attr(txt);
+    color: #767781;
+    caret-color: transparent;
+}
+
+.icon {
+    display: inline-block;
+    max-width: calc(100% - 60px);
+    height: 60%;
+    object-fit: cover;
+    margin: 5px;
+    filter: grayscale(45%) invert() brightness(250%) blur(1px);
 }
