@@ -1,0 +1,23 @@
+body {
+    background: #343541; /*GPT grey mega tuff btw OG type*/
+}
+
+/*div magic ig*/
+
+.center-x {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.center-y {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.typebox-y {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+}

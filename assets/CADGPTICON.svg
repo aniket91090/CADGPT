@@ -14,16 +14,17 @@
              stroke-width="7"
              stroke-linecap="round"/>
 
-    <g stroke="#FFFFFF" stroke-width="5" stroke-linecap="round">
+    <g stroke="#FFFFFF" stroke-width="6" stroke-linecap="round">
         <line x1="250" y1="250" x2="250.0" y2="416.7" />
         <line x1="250" y1="250" x2="394.3" y2="166.7" />
         <line x1="250" y1="250" x2="105.7" y2="166.7" />
     </g>
-
+    <!--
     <g stroke="#FFFFFF" fill="#74AA9C" font-family="sans-serif" font-weight="bold" font-size="60" text-anchor="middle" dominant-baseline="middle">
         <text x="178" y="290" transform="rotate(30, 108, 300)">CAD</text>
         <text x="322" y="290" transform="rotate(-30, 392, 300)">GPT</text>
     </g>
+    -->
 
     <!-- was tryna rotate this and make it look tuff like the hexacube
     and the CAD text on one side like its on the plane and stuff looking 3D
@@ -34,4 +35,6 @@
     <!-- UPDATE MANAGED TO GET IT TO LOOK DECENT FLIPPED THE HEXACUBE
     AND LIKE MADE THE TEXTS ALIGN ALONG THE EDGES KINDA THIS IS RLLY TUFF
     MEGA TUFF ELITE TOP TEN GREATEST MOMENTS OAT -->
+
+    <!-- The text lwk isnt tuff im transparenting it to go for OG chatgpt vibes-->
 </svg>
