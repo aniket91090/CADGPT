@@ -22,9 +22,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 80vh auto 0 50vw;
-    height: 12.5vh;
-    width: 35vw;
+    margin: 3vh auto auto auto;
+    height: 8.5vh;
+    width: 65vw;
     border: .5px solid #767781;
     border-radius: 10px;
     corner-shape: round;
@@ -61,4 +61,18 @@ body {
     object-fit: cover;
     margin: 5px;
     filter: grayscale(45%) invert() brightness(250%) blur(1px);
+}
+
+.viewport {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh auto auto auto;
+    height: 78.5vh;
+    width: 65vw;
+    border: .5px solid #767781;
+    border-radius: 10px;
+    corner-shape: round;
+    color: #c5c6d1;
+    background: #4e4f5a;
 }
